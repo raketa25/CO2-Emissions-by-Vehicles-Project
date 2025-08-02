@@ -1,0 +1,21 @@
+# Ignore large data files
+Datasets/data.csv
+Datasets/*.csv
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore model files
+*.pkl
+*.h5
+*.pt
+
+# Ignore temp and OS files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
